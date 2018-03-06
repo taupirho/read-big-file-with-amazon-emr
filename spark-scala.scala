@@ -40,7 +40,7 @@ object test {
     
     println("Writing out data to files")
     
-    // S3 bucket named obfuscated for privacy reasons
+    
     newdf.write.partitionBy("period").format("com.databricks.spark.csv").option("header", "false").option("delimiter", "|").mode("overwrite").save("s3n://taupirho/iholding/myfiles")
 
     println(Calendar.getInstance.getTime)
