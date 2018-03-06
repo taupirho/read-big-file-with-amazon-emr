@@ -9,7 +9,9 @@ with C, Python, spark-python and spark-scala. You can see my other articles on t
  
 As a reminder, I'm trying to read the same big data file (21 Gbytes) we read before with C, python, spark-python and spark-scala but 
 this time using an Amazon AWS Elastic Map Reduce cluster and the spark-scala program from before.
-I figured since all previous runs had been on my local PC it would be interesting to see how I got on in a real clusetr environment
+I figured since all previous runs had been on my local PC it would be interesting to see how I got on in a real cluster 
+environment in the cloud.
+
 Just to recap, the data file is about 21 Gigabtyes long and holds approximately 335 Million pipe separated records. The first 
 10 records are shown below:
 
