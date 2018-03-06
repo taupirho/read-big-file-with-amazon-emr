@@ -1,4 +1,4 @@
-package spark-scala
+package sparkread
 
 import org.apache.spark._
 import org.apache.spark.SparkContext._
