@@ -47,7 +47,7 @@ There were a number of pre-requisites to set up before we could do anything.
 Once the cluster was up and running it was a case of copying the JAR file from S3 to the master node then submitting the 
 following command 
 
-$ spark-submit --class spark-read.test spark-scala.jar
+$ spark-submit --class sparkread.test spark-scala.jar
 
 The rest of the interaction is shown below
 
