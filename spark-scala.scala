@@ -31,8 +31,8 @@ object test {
     
     println("Reading in input file")
     
-    // S3 bucket named obfuscated for privacy reasons
-    val df = spark.read.format("com.databricks.spark.csv").option("header", "false").option("inferSchema", "true").option("delimiter", "|").load("s3n://XXXXXXXXXX/iholding/issueholding.txt")
+    
+    val df = spark.read.format("com.databricks.spark.csv").option("header", "false").option("inferSchema", "true").option("delimiter", "|").load("s3n://taupirho/iholding/issueholding.txt")
     
     println("Adding column to DF")
     
@@ -41,7 +41,7 @@ object test {
     println("Writing out data to files")
     
     // S3 bucket named obfuscated for privacy reasons
-    newdf.write.partitionBy("period").format("com.databricks.spark.csv").option("header", "false").option("delimiter", "|").mode("overwrite").save("s3n://XXXXXXXXXX/iholding/myfiles")
+    newdf.write.partitionBy("period").format("com.databricks.spark.csv").option("header", "false").option("delimiter", "|").mode("overwrite").save("s3n://taupirho/iholding/myfiles")
 
     println(Calendar.getInstance.getTime)
     
