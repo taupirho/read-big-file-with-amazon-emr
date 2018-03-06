@@ -51,6 +51,7 @@ $ spark-submit --class sparkread.test spark-scala.jar
 
 The rest of the interaction is shown below
 
+```
 [hadoop@ip-172-31-24-1 ~]$ spark-submit --class spark-read.test spark-scala.jar
 Mon Mar 05 14:34:59 UTC 2018
 Setting up Spark session
@@ -62,16 +63,17 @@ Writing out data to files
 18/03/05 15:35:23 INFO MultipartUploadOutputStream: close closed:false s3://taupirho/iholding/myfiles/_SUCCESS
 Mon Mar 05 15:35:23 UTC 2018
 [hadoop@ip-172-31-24-1 ~]
-
+```
 The bottom line in all this is that, as you can see from the above output, the job took just under one hour to complete.
 
 As a reminder, my other timings were:-
 
+```
 C program on a openVMS Alpha server:- 54 minutes
 Python 3.6 program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 18 minutes
 Spark-Python 3.5 program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 36 minutes
 Spark-Scala 2.1  program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 48 minutes
-
+```
 
 
 
