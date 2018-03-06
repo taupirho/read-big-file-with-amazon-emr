@@ -1,11 +1,11 @@
 # read-big-file-with-amazon-emr
-A case study in reading a big data file using Spark-Scala on Amazon's Elastics Map Reduce service
+A case study in reading a big data file using Spark-Scala on AWS Elastic Map Reduce
 
 This is the fourth part in my increasingly innacurately named  trilogy on how I got on reading a big data file 
-with C, Python, spark-python and
-spark-scala. You can see my other articles on this topic <a href="https://github.com/taupirho/read-big-file-with-python">here</a>, 
- <a href="https://github.com/taupirho/read-big-file-with-spark-python">here</a> and 
- <a href="https://github.com/taupirho/read-big-file-with-spark-scala">here</a>.
+with C, Python, spark-python and spark-scala. You can see my other articles on this topic 
+<a href="https://github.com/taupirho/read-big-file-with-python">here</a>,  
+<a href="https://github.com/taupirho/read-big-file-with-spark-python">here</a> and 
+<a href="https://github.com/taupirho/read-big-file-with-spark-scala">here</a>.
  
 As a reminder, I'm trying to read the same big data file (21 Gbytes) we read before with C, python, spark-python and spark-scala but 
 this time using an Amazon AWS Elastic Map Reduce cluster and the spark-scala program from before.
