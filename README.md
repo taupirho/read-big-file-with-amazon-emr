@@ -44,8 +44,8 @@ There were a number of pre-requisites to set up before we could do anything.
 5) Modify the spark-scala code to enable it to run on the cluster rather than my local PC. This mainly involved changes to 
    the SparkSession call and to file pathnames 
 
-Once the cluster was up and running it was a case of copying the JAR file from S3 to the master node then submitting the 
-following command 
+Once the cluster was up and running it was a case of copying the JAR file from S3 to the master node using the aws s3 cp command 
+then submitting the following on the master node.
 
 $ spark-submit --class sparkread.test spark-scala.jar
 
