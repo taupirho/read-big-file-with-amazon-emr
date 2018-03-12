@@ -71,10 +71,11 @@ The bottom line in all this is that, as you can see from the above output, the j
 As a reminder, my other timings were:-
 
 ```
-C program on a openVMS Alpha server:- 54 minutes
+C program on a openVMS Alpha server (Dual 1.33Ghz processors, 32 GB Ram) :- 54 minutes
 Python 3.6 program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 18 minutes
 Spark-Python 3.5 program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 36 minutes
 Spark-Scala 2.1  program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 48 minutes
+Visual Studio C++ program on a Quad 3.4 GHz Intel Core i7-3770 windows 7 PC with 16GB RAM : 59 minutes
 ```
 
 
