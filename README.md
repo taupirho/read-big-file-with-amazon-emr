@@ -1,4 +1,4 @@
-# read-big-file-with-amazon-emr
+# read-big-file-with-amazon-elastic-map-reduce
 A case study in reading a big data file using Spark-Scala on AWS Elastic Map Reduce
 
 This is the fourth part in my increasingly innacurately named  trilogy on how I got on reading a big data file 
